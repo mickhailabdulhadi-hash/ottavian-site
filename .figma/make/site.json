@@ -1,0 +1,10 @@
+{
+  "description": "Ottavian is a self-hosting PaaS platform that simplifies infrastructure management, allowing users to deploy applications effortlessly while maintaining full control.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
