@@ -3,6 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
 @import 'tailwindcss';
 
+input[type='range']::-webkit-slider-thumb { -webkit-appearance: none; }
+input[type='range']::-moz-range-thumb { appearance: none; border: none; background: transparent; }
+
+@theme {
+  --color-charcoal: #131110;
+  --color-charcoal-raised: #1C1815;
+  --color-clay: #C56A44;
+  --color-parchment: #D8C9B0;
+  --color-parchment-muted: #7A6C58;
+  --color-line: #2B2521;
+
+  --font-fraunces: 'Fraunces', serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
 html,
 body,
 #root {
